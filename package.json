@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/swordcss/eslint-config-swordcss#readme",
   "peerDependencies": {
-    "eslint": "7.10.0"
+    "eslint": "7.x.x"
   }
 }

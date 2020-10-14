@@ -6,6 +6,9 @@ module.exports = {
 		mocha: true,
 		es6: true
 	},
+	parserOptions: {
+		ecmaVersion: 12
+	},
 	globals: {
 		__dirname: true
 	},
