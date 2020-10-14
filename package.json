@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-swordcss",
+  "version": "0.1.0",
+  "description": "Shareable ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swordcss/eslint-config-swordcss.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "shadowtime2000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swordcss/eslint-config-swordcss/issues"
+  },
+  "homepage": "https://github.com/swordcss/eslint-config-swordcss#readme",
+  "peerDependencies": {
+    "eslint": "7.10.0"
+  }
+}
