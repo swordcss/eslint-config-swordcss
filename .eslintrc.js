@@ -3,7 +3,8 @@ module.exports = {
 		browser: false,
 		commonjs: true,
 		node: true,
-		mocha: true
+		mocha: true,
+		es6: true
 	},
 	globals: {
 		__dirname: true
