@@ -14,10 +14,6 @@ module.exports = {
 	},
 	extends: "eslint:recommended",
 	rules: {
-		"linebreak-style": [
-			"error",
-			"windows"
-		],
 		quotes: [
 			"error",
 			"double"
