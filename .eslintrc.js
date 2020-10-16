@@ -18,6 +18,10 @@ module.exports = {
     "no-const-assign": "error",
     "no-var": "error",
     "no-new-object": "error",
+    "no-new-wrappers": "error",
+    "no-array-constructor": "error",
     "prefer-arrow-callback": "error",
+    "semi": ["error", "always"],
+    "semi-style": ["error", "last"]
   },
 };
