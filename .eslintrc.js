@@ -21,7 +21,8 @@ module.exports = {
     "no-new-wrappers": "error",
     "no-array-constructor": "error",
     "prefer-arrow-callback": "error",
-    "semi": ["error", "always"],
-    "semi-style": ["error", "last"]
+    semi: ["error", "always"],
+    "semi-style": ["error", "last"],
+    "comma-spacing": ["error", { before: false, after: true }],
   },
 };

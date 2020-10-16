@@ -99,3 +99,16 @@ Semicolons are required at the end of lines.
 // Good
 let foo = "foo";
 ```
+
+<hr />
+
+#### Commas
+
+Commas cannot have a space before it and must have a space after it.
+
+```javascript
+// Bad
+const foo = ["bar" ,"foo"];
+// Good
+const foo = ["bar", "foo"];
+```
