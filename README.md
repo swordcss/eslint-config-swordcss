@@ -52,3 +52,36 @@ let foo = new Object();
 // Good
 let foo = {};
 ```
+
+<hr />
+#### Arrays
+Create arrays with `[]` instead of `new Array()`
+
+```javascript
+// Bad
+let foo = new Array();
+// Good
+let foo = [];
+```
+
+<hr />
+#### Primitives
+Create primitives with their function wrappers or the actual value itself instead of using a `new` wrapper.
+
+```javascript
+// Bad
+let foo = new String("foo");
+// Good
+let foo = "foo";
+```
+
+<hr />
+#### Semicolons
+Semicolons are required at the end of lines.
+
+```javascript
+// Bad
+;let foo = "foo";
+// Good
+let foo = "foo";
+```
