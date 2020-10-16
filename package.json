@@ -4,7 +4,8 @@
   "description": "Shareable ESLint Config",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --no-config --write ."
   },
   "files": [
     ".eslintrc.js"
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/swordcss/eslint-config-swordcss#readme",
   "peerDependencies": {
     "eslint": "7.x.x"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
