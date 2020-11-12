@@ -5,9 +5,11 @@ module.exports = {
     mocha: true,
     es6: true,
   },
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 12,
   },
+  plugins: ["@typescript-eslint"],
   globals: {
     __dirname: true,
   },

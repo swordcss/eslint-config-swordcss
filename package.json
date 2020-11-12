@@ -25,9 +25,13 @@
   },
   "homepage": "https://github.com/swordcss/eslint-config-swordcss#readme",
   "peerDependencies": {
-    "eslint": "7.x.x"
+    "eslint": "7.x.x",
+    "@typescript-eslint/eslint-plugin": ">=4.2.0"
   },
   "devDependencies": {
     "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.7.0"
   }
 }
